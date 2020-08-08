@@ -40,7 +40,7 @@ jobs:
         uses: webbertakken/unity-builder@v1.1
 
         with:
-          
+          allowDirtyBuild: true
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v1
