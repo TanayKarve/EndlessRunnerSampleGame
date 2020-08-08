@@ -33,7 +33,7 @@ jobs:
           restore-keys: |
             Library-${{ matrix.projectPath }}-
             Library-
-      - uses: webbertakken/unity-builder
+      - uses: webbertakken/unity-builder@master
         with:
           
           unityVersion: ${{ matrix.unityVersion }}
