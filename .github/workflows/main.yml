@@ -20,8 +20,9 @@ jobs:
         projectPath:
           - a
         unityVersion:
-          - 2019.2.11f1
-          - 2019.3.0f1
+  
+          - 2019.3
+
         targetPlatform:
           - Android # Build an Android .apk standalone app.
 
