@@ -41,5 +41,6 @@ This version include feature not in the released game in the asset store version
 - A basic tutorial when the game is played the first time
 - The use of the new Lightweight Rendering pipeline
 - The use of the new Addressable System that replace the Assets Bundles.
+//
 
 **Documentation is still not up to date in the wiki. Updating is in progress**
