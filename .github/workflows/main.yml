@@ -32,7 +32,7 @@ jobs:
 
 
 
-      - uses: webbertakken/unity-builder@master
+      - uses: webbertakken/unity-builder@v1.1
         with:
           
           unityVersion: ${{ matrix.unityVersion }}
