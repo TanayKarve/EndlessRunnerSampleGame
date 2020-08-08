@@ -41,7 +41,7 @@ jobs:
 
         with:
           versioning: Semantic
-          allowDirtyBuild: true
+          customParameters: -allowDirtyBuild -true
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v1
